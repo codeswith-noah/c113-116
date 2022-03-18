@@ -1,0 +1,14 @@
+.ffh{
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor{
+    from {color:lightsalmon;}
+    to {color: purple;}
+}
+
+body{
+    background-size: cover;
+}
